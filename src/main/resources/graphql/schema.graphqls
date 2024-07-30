@@ -1,0 +1,14 @@
+extend schema @link(url: "https://specs.apollo.dev/federation/v2.3",
+    import: ["@key", "@shareable", "@inaccessible"])
+
+type Query {
+    fdrDiscovery: FdrDiscoveryResponse @shareable
+
+}
+
+type FdrDiscoveryResponse @key(fields: "dummyId") {
+
+    dummyId: String @inaccessible
+    hello: String
+}
+
