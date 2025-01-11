@@ -29,8 +29,10 @@
 
     <!-- new SchemaDirectivesSupportTest doesn't work -->
 <!--    -->
-    <graphql-java-kickstart.version>13.1.1</graphql-java-kickstart.version>
-    <graphql-java.version>21.5</graphql-java.version>
+<!--    <graphql-java-kickstart.version>13.1.1</graphql-java-kickstart.version>-->
+<!--    <graphql-java.version>21.5</graphql-java.version>-->
+    <graphql-java-kickstart.version>14.0.0</graphql-java-kickstart.version>
+    <graphql-java.version>22.3</graphql-java.version>
 
   </properties>
 
